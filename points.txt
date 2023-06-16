@@ -1,0 +1,4 @@
+metre tous les champs d'une table à la meme valeur :
+UPDATE `8_ans` SET `point`=1
+duplication d'une table :
+CREATE TABLE nouvelle_table AS SELECT * FROM ancienne_table

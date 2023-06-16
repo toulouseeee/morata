@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* lien général*/
+a{
+	line-height: 2;
+    margin: 0px 10px;
+	padding: 10px;
+    text-decoration: none;
+    color: rgba(90,90,90,1.00);
+	font-weight:bold;
+	border: 0px;
+	}
+ a:hover{
+	font-weight:bold;
+	color: rgba(255,255,255,1.00);
+	background-color:rgba(32,94,146,1.00);
+	transition-duration: 1s;
+	}
+input{
+   	color: rgba(90,90,90,1.00);
+	font-weight:bold;
+	border:solid 1px;
+	}
+input:hover{
+	font-weight:bold;
+	color: rgba(255,255,255,1.00);
+	background-color:rgba(32,94,146,1);
+	transition-duration: 1s;
+	}
+/* pour page d'index*/
+
+iframe{
+	border:0px;
+	padding: 0px;
+	}
+.cadre{
+	margin: 0px;
+	padding: 0px;
+	background-color:rgb(243,243,238); 
+	}
+/* autres pages */
+#menu{
+	background-color: rgb(255,255,255);
+	padding-top: 0px;
+	height:auto;
+	min-height: 190px;
+	}
+#saisie{
+	height: 80%;
+	}
+/* pour page info*/
+strong{
+	color:rgb(255,0,0);
+}
+h1{
+	text-align:center;
+	color:rgba(32,94,146,1);
+}
+h2{
+	color:rgba(32,94,146,1);
+}
+body{
+	padding-left: 10px;
+}
+ol li{
+	line-height: 1.75;
+	font-weight: bold;
+}
+/*pour encadrer les groupes de cathégorie*/
+#nombre {
+    border: 1px solid;
+	padding: 10px;
+    margin: 10px;
+  	background-color:rgba(32,94,146,1);
+	max-width: 680px;
+	/*premet de maintenir les div à l'interieur*/
+	display: flex;
+	/* permet le retour à la ligne si les div internes depassent la largeur*/
+	flex-wrap: wrap;
+	/* repartition regulière entre chaque éléments*/
+	justify-content: space-evenly;
+	}
+#jeune {
+    border: 1px solid;
+	/*border-radius: 10px;*/
+    padding: 10px;
+    margin: 10px;
+  	background-color:rgba(32,94,146,1);
+	max-width: 800px;
+	/*permet de maintenir les div à l'interieur*/
+	display: flex;
+	/* permet le retour à la ligne si les div internes depassent la largeur*/
+	flex-wrap: wrap;
+	/* repartition regulière entre chque éléments*/
+	justify-content: space-evenly;
+	}
+#classique {
+    border: 1px solid;
+	/*border-radius: 10px;*/
+    padding: 10px;
+    margin: 10px;
+  	background-color:rgba(32,94,146,1);
+	max-width: 1200px;
+	/*premet de maintenir les div à l'interieur*/
+	display: flex;
+	/* permet le retour à la ligne si les div internes depassent la latgeur*/
+	flex-wrap: wrap;
+	/* repartition regulière entre chque éléments*/
+	justify-content: space-evenly;
+	}
+#poulie {
+    border: 1px solid;
+	/*border-radius: 10px;*/
+    padding: 10px;
+    margin: 10px;
+  	background-color:rgba(32,94,146,1);
+	max-width: 500px;
+	/*premet de maintenir les div à l'interieur*/
+	display: flex;
+	/* permet le retour à la ligne si les div internes depassent la latgeur*/
+	flex-wrap: wrap;
+	/* repartition regulière entre chque éléments*/
+	justify-content: space-evenly;
+	}
+/* pour délimiter cathégories*/
+.cath {
+    border: 1px solid;
+	/*border-radius: 10px;*/
+    padding: 10px;
+    margin: 10px;
+	float:left;
+    background-color:rgba(255,255,255,1);
+}
+/*pour bouton formulaire*/
+.espace {
+    margin: 5px 5px 5px 20px;
+}
